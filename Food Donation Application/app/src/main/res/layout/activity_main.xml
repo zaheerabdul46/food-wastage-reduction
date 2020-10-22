@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="268dp"
+        android:onClick="Address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/donate_food" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="154dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="268dp"
+        android:onClick="location"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/location" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="137dp"
+        android:layout_height="146dp"
+        android:onClick="ItemDetails"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView7"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.343"
+        app:srcCompat="@drawable/donation_history" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="147dp"
+        android:layout_height="156dp"
+        android:layout_marginEnd="36dp"
+        android:onClick="profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.329"
+        app:srcCompat="@drawable/profile" />
+</androidx.constraintlayout.widget.ConstraintLayout>

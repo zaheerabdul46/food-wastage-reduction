@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".location"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/dash_background">
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="302dp"
+        android:layout_height="63dp"
+        android:autofillHints="Enter Location"
+        android:background="@android:color/black"
+        android:fontFamily="@font/aclonica"
+        android:hint="    Enter Location"
+        android:inputType="text|textPostalAddress"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="99dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/aclonica"
+        android:onClick="openLocation"
+        android:text="Search" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">Food Donation</string>
+    <string name="edittext_loc">edittext_loc</string>
+    <string name="button_loc">button_loc</string>
+    <string name="your_name">Your Name</string>
+    <string name="email_not_verfied">Email Not Verfied !</string>
+    <string name="phone">Phone</string>
+    <string name="verify_now">Verify Now</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="full_name">Full Name</string>
+    <string name="logout">Logout</string>
+    <string name="todo">TODO</string>
+    <string name="phone_number">phone_number</string>
+    <string name="reset_password">reset_password</string>
+    <string name="email">email</string>
+</resources>

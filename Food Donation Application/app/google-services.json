@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "353858940129",
+    "firebase_url": "https://epicfooddonation.firebaseio.com",
+    "project_id": "epicfooddonation",
+    "storage_bucket": "epicfooddonation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353858940129:android:6de21d496dbd0a60b51ba0",
+        "android_client_info": {
+          "package_name": "com.epic.fooddonation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "353858940129-qglh463if22714ckau1nvv2dd0b2f3mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epic.fooddonation",
+            "certificate_hash": "7c5c34cb5c38c8a8430f39d623fde98b06e66c8f"
+          }
+        },
+        {
+          "client_id": "353858940129-dcg9s2274nsuq19vqdfs67frsubdrpdj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAemM9BJBjI-IoP9b0Ccy3L3bNYfyKvzKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "353858940129-dcg9s2274nsuq19vqdfs67frsubdrpdj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
